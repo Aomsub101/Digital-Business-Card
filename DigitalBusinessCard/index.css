@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    font-family: Inter, sans-serif;
+    width: 317px;
+    height: 780px;
+    background-color: #23252C;
+}
+button{
+    width: 115px;
+    height: auto;
+    padding: 9px;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 33px;
+    border: none;
+    border-radius: 7px;
+    float:left
+}
+button.email{
+    margin-right:17px;
+}
+.linkedin{
+    background-color:#5093E2;
+    color:white;
+}
+
+.information, .about, .interests {
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    padding: 0px 35px;
+}
+.about > p, .interests > p{
+    padding-top: 5px;
+    padding-bottom: 24px;
+}
+.information{
+    text-align: center;
+}
+
+.information > .name{
+    padding-top:21px;
+    margin-bottom: 6px;
+}
+.information > .career{
+    color:#F3BF99;
+    margin-bottom: 9px;
+}
+.footer{
+    background-color: #161619;
+    height:64px;
+    display: flex;
+    padding: 20px 12p;
+}
+.footer > a{
+    padding: 20px 12px;
+}
+.footer > .twitter{
+    margin-left: 61px;
+}
